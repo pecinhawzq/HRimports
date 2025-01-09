@@ -1,0 +1,153 @@
+/* Estilo básico para o layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('sua-imagem-de-fundo.jpg'); /* Substitua pelo caminho da imagem desejada */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro para o cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Seção de produtos */
+.products {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-square {
+    width: 45%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Grade de produtos dentro de cada quadrado */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas para produtos */
+    gap: 20px;
+}
+
+.product {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product button {
+    background-color: #f4b400;
+    border: none;
+    padding: 10px;
+    color: black;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.product button:hover {
+    background-color: #e0a900;
+}
+
+/* Carrinho */
+.cart {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    max-width: 300px;
+    width: 100%;
+}
+
+.cart h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+#cart-items {
+    margin-top: 10px;
+    font-size: 1em;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#cart-items p {
+    margin: 5px 0;
+}
+
+#cart-total {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+button#checkout-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button#checkout-btn:hover {
+    background-color: #218838;
+}
+
+/* Botão de Remover */
+.remove-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-left: 10px;
+    border-radius: 5px;
+}/* Estilo básico para o layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('image/fundo.jpg'); /* Caminho da imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Alinha a imagem no centro */
+    background-attachment: fixed; /* Faz a imagem de fundo ficar fixa enquanto o usuário rola a página */
+    color: white; /* Cor do texto */
+}
+

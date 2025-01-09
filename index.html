@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Imports</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho da loja -->
+    <header>
+        <div class="logo">
+            <h1>HR Imports</h1>
+        </div>
+    </header>
+
+    <!-- Seção de produtos -->
+    <div class="products">
+        <!-- Quadrado para Camisas Surf -->
+        <div class="product-square">
+            <h2>Camisas Surf</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="camisa-surf1.jpg" alt="Camisa Surf 1">
+                    <p>Camisa Surf 1</p>
+                    <p>$99</p>
+                    <button class="add-to-cart" data-product="Camisa Surf 1" data-price="99">Adicionar ao Carrinho</button>
+                </div>
+                <div class="product">
+                    <img src="camisa-surf2.jpg" alt="Camisa Surf 2">
+                    <p>Camisa Surf 2</p>
+                    <p>$99</p>
+                    <button class="add-to-cart" data-product="Camisa Surf 2" data-price="99">Adicionar ao Carrinho</button>
+                </div>
+                <div class="product">
+                    <img src="camisa-surf3.jpg" alt="Camisa Surf 3">
+                    <p>Camisa Surf 3</p>
+                    <p>$99</p>
+                    <button class="add-to-cart" data-product="Camisa Surf 3" data-price="99">Adicionar ao Carrinho</button>
+                </div>
+                <div class="product">
+                    <img src="camisa-surf4.jpg" alt="Camisa Surf 4">
+                    <p>Camisa Surf 4</p>
+                    <p>$99</p>
+                    <button class="add-to-cart" data-product="Camisa Surf 4" data-price="99">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quadrado para Camisas Peruanas -->
+        <div class="product-square">
+            <h2>Camisas Peruanas</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="camisa-peruana1.jpg" alt="Camisa Peruana 1">
+                    <p>Camisa Peruana 1</p>
+                    <p>$99</p>
+                    <button class="add-to-cart" data-product="Camisa Peruana 1" data-price="99">Adicionar ao Carrinho</button>
+                </div>
+                <div class="product">
+                    <img src="camisa-peruana2.jpg" alt="Camisa Peruana 2">
+                    <p>Camisa Peruana 2</p>
+                    <p>$99</p>
+                    <button class="add-to-cart" data-product="Camisa Peruana 2" data-price="99">Adicionar ao Carrinho</button>
+                </div>
+                <div class="product">
+                    <img src="camisa-peruana3.jpg" alt="Camisa Peruana 3">
+                    <p>Camisa Peruana 3</p>
+                    <p>$99</p>
+                    <button class="add-to-cart" data-product="Camisa Peruana 3" data-price="99">Adicionar ao Carrinho</button>
+                </div>
+                <div class="product">
+                    <img src="camisa-peruana4.jpg" alt="Camisa Peruana 4">
+                    <p>Camisa Peruana 4</p>
+                    <p>$99</p>
+                    <button class="add-to-cart" data-product="Camisa Peruana 4" data-price="99">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carrinho -->
+    <div class="cart">
+        <h3>Carrinho de Compras</h3>
+        <p>Itens: <span id="cart-count">0</span></p>
+        <div id="cart-items">
+            <!-- Produtos adicionados ao carrinho aparecerão aqui -->
+        </div>
+        <p>Total: $<span id="cart-total">0</span></p>
+        <button id="checkout-btn" onclick="finalizarCompra()">Finalizar Compra</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
