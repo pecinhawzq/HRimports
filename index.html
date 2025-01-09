@@ -1,95 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Meta tag para responsividade -->
     <title>HR Imports</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Cabeçalho da loja -->
     <header>
-        <div class="logo">
-            <h1>HR Imports</h1>
-        </div>
+        <h1>HR Imports</h1>
     </header>
 
-    <!-- Seção de produtos -->
-    <div class="products">
-        <!-- Quadrado para Camisas Surf -->
-        <div class="product-square">
-            <h2>Camisas Surf</h2>
-            <div class="product-grid">
-                <div class="product">
-                    <img src="camisa-surf1.jpg" alt="Camisa Surf 1">
-                    <p>Camisa Surf 1</p>
-                    <p>$99</p>
-                    <button class="add-to-cart" data-product="Camisa Surf 1" data-price="99">Adicionar ao Carrinho</button>
-                </div>
-                <div class="product">
-                    <img src="camisa-surf2.jpg" alt="Camisa Surf 2">
-                    <p>Camisa Surf 2</p>
-                    <p>$99</p>
-                    <button class="add-to-cart" data-product="Camisa Surf 2" data-price="99">Adicionar ao Carrinho</button>
-                </div>
-                <div class="product">
-                    <img src="camisa-surf3.jpg" alt="Camisa Surf 3">
-                    <p>Camisa Surf 3</p>
-                    <p>$99</p>
-                    <button class="add-to-cart" data-product="Camisa Surf 3" data-price="99">Adicionar ao Carrinho</button>
-                </div>
-                <div class="product">
-                    <img src="camisa-surf4.jpg" alt="Camisa Surf 4">
-                    <p>Camisa Surf 4</p>
-                    <p>$99</p>
-                    <button class="add-to-cart" data-product="Camisa Surf 4" data-price="99">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-        </div>
+    <!-- Título da seção de Camisas Peruanas -->
+    <section class="titulo-secao">
+        <h2>Camisas Peruanas</h2>
+    </section>
 
-        <!-- Quadrado para Camisas Peruanas -->
-        <div class="product-square">
-            <h2>Camisas Peruanas</h2>
-            <div class="product-grid">
-                <div class="product">
-                    <img src="camisa-peruana1.jpg" alt="Camisa Peruana 1">
-                    <p>Camisa Peruana 1</p>
-                    <p>$99</p>
-                    <button class="add-to-cart" data-product="Camisa Peruana 1" data-price="99">Adicionar ao Carrinho</button>
-                </div>
-                <div class="product">
-                    <img src="camisa-peruana2.jpg" alt="Camisa Peruana 2">
-                    <p>Camisa Peruana 2</p>
-                    <p>$99</p>
-                    <button class="add-to-cart" data-product="Camisa Peruana 2" data-price="99">Adicionar ao Carrinho</button>
-                </div>
-                <div class="product">
-                    <img src="camisa-peruana3.jpg" alt="Camisa Peruana 3">
-                    <p>Camisa Peruana 3</p>
-                    <p>$99</p>
-                    <button class="add-to-cart" data-product="Camisa Peruana 3" data-price="99">Adicionar ao Carrinho</button>
-                </div>
-                <div class="product">
-                    <img src="camisa-peruana4.jpg" alt="Camisa Peruana 4">
-                    <p>Camisa Peruana 4</p>
-                    <p>$99</p>
-                    <button class="add-to-cart" data-product="Camisa Peruana 4" data-price="99">Adicionar ao Carrinho</button>
-                </div>
+    <!-- Quadrado Maior com os produtos -->
+    <div class="quadrado-maior">
+        <div class="grupo">
+            <div class="quadro">
+                <img src="image/camisa1.jpg" alt="Camisa Masculina 1">
+                <h2>Camisa Polo</h2>
+                <p>Camisa masculina de algodão, ideal para o dia a dia.</p>
+                <div class="preco">R$ 89,90</div>
+            </div>
+            <div class="quadro">
+                <img src="image/camisa2.jpg" alt="Camisa Masculina 2">
+                <h2>Camisa Casual</h2>
+                <p>Camisa casual de manga curta, disponível em várias cores.</p>
+                <div class="preco">R$ 79,90</div>
+            </div>
+            <div class="quadro">
+                <img src="image/camisa3.jpg" alt="Camisa Masculina 3">
+                <h2>Camisa de Manga Longa</h2>
+                <p>Camisa confortável para todas as estações.</p>
+                <div class="preco">R$ 99,90</div>
+            </div>
+            <div class="quadro">
+                <img src="image/camisa4.jpg" alt="Camisa Masculina 4">
+                <h2>Camisa Esportiva</h2>
+                <p>Perfeita para atividades ao ar livre e esportes.</p>
+                <div class="preco">R$ 119,90</div>
             </div>
         </div>
     </div>
 
-    <!-- Carrinho -->
-    <div class="cart">
-        <h3>Carrinho de Compras</h3>
-        <p>Itens: <span id="cart-count">0</span></p>
-        <div id="cart-items">
-            <!-- Produtos adicionados ao carrinho aparecerão aqui -->
+    <div class="quadrado-maior">
+        <div class="grupo">
+            <div class="quadro">
+                <img src="image/camisa5.jpg" alt="Camisa Masculina 5">
+                <h2>Camisa de Gráfico</h2>
+                <p>Estilo despojado com estampas exclusivas.</p>
+                <div class="preco">R$ 89,90</div>
+            </div>
+            <div class="quadro">
+                <img src="image/camisa6.jpg" alt="Camisa Masculina 6">
+                <h2>Camisa de Linho</h2>
+                <p>Camisa leve e arejada, perfeita para o verão.</p>
+                <div class="preco">R$ 149,90</div>
+            </div>
+            <div class="quadro">
+                <img src="image/camisa7.jpg" alt="Camisa Masculina 7">
+                <h2>Camisa Slim Fit</h2>
+                <p>Camisa masculina no estilo slim, ajustada ao corpo.</p>
+                <div class="preco">R$ 109,90</div>
+            </div>
+            <div class="quadro">
+                <img src="image/camisa8.jpg" alt="Camisa Masculina 8">
+                <h2>Camisa Social</h2>
+                <p>Camisa de alta qualidade, ideal para eventos formais.</p>
+                <div class="preco">R$ 159,90</div>
+            </div>
         </div>
-        <p>Total: $<span id="cart-total">0</span></p>
-        <button id="checkout-btn" onclick="finalizarCompra()">Finalizar Compra</button>
     </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
